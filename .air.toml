@@ -1,0 +1,18 @@
+root = "."
+tmp_dir = "tmp"
+build_dir = "tmp/build"
+binary_name = "app"
+
+[build]
+main = "C:/Users/Peter/GolandProjects/GoProject/cmd/shortener/main.go"
+exclude_dir = ["tmp/*", "public/*"]
+exclude_file = ["*_test.go"]
+include_ext = ["go", "tpl", "tmpl", "html"]
+
+
+[log]
+time = true
+color = true
+prefix = "air"
+level = "debug"
+
